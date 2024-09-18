@@ -1,0 +1,131 @@
+:root {
+  --bgclr: white;
+  --h: 84vh;
+  --w: 60vw;
+}
+
+marquee {
+  height: 50%;
+  width: 100%;
+  color: red;
+  background-image: linear-gradient(aquamarine, black, yellow);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main {
+  /* background-color: var(--bgclr); */
+  background-color: silver;
+  height: var(--h);
+  width: var(--w);
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "img1 img2 img3"
+    "img1 img2 img3"
+    "img1 img4 img5"
+    "img1 img4 img5"
+    "img6 img4 img7"
+    "img6 img4 img7"
+    "img6 img4 img7";
+  padding: 20px;
+  margin-left: 310px;
+}
+
+.img1 {
+  background-image: url(./assets/images/i1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: img1;
+  /* border: 1px solid black; */
+}
+.img1:hover {
+  transition: ease 3s;
+  transform: scale(1.5);
+}
+
+.img2 {
+  background-image: url(./assets/images/i2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: img2;
+  /* border: 1px solid black; */
+}
+.img2:hover {
+  transition: ease 3s;
+  transform: scale(1.5);
+}
+
+.img3 {
+  background-image: url(./assets/images/i3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: img3;
+  /* border: 1px solid black; */
+}
+.img3:hover {
+  transition: ease 3s;
+  transform: scale(1.5);
+}
+
+.img4 {
+  background-image: url(./assets/images/i4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: img4;
+  /* border: 1px solid black; */
+}
+.img4:hover {
+  transition: ease 3s;
+  transform: scale(1.5);
+}
+
+.img5 {
+  background-image: url(./assets/images/i5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: img5;
+  /* border: 1px solid black; */
+}
+.img5:hover {
+  transition: ease 3s;
+  transform: scale(1.5);
+}
+.img6 {
+  background-image: url(./assets/images/i6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: img6;
+  /* border: 1px solid black; */
+}
+
+.img6:hover {
+  transition: ease 3s;
+  transform: scale(1.5);
+}
+
+.img7 {
+  background-image: url(./assets/images/i7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: img7;
+  /* border: 1px solid black; */
+}
+
+.img7:hover {
+  transition: ease 3s;
+  transform: scale(1.5);
+}
